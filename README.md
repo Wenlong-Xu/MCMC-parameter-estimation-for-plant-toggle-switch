@@ -2,7 +2,8 @@
 MCMC parameter estimation of plant toggle switch with inputs of dynamic whole plant luminescence measurement 
 Built on reported ordinary differential equation (ODE) models (1) ( Equation S1), our ODE model also consists of 1) two Hill functions describing the input-output characteristics of the two mutually repressible promoters and 2) first-order dynamics for repressor degradation, Additional terms were introduced to better describe the behaviors of the toggle switches in plants, and address the increase in the complexity of the system. 1) binary terms (k_DEX and k_OHT) for the absence or presence of inducer; 2) constitutive expression terms (α_DEX and α_OHT) for the strengths of the inducible promoters; 3) α_x and α_y for the basal expression levels of the repressible promoters. 
 
-Equation S1
+Equation S1 
+
 dX/dT=k_OHT α_OHT+α_x+b_x/(1+(Y/K_x )^(n_x ) )-d_x X	
 
 dY/dT=k_DEX α_DEX+α_y+b_y/(1+(X/K_y )^(n_y ) )-d_y Y	
